@@ -1,65 +1,128 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Basic Forms Rails
 
-> One paragraph statement about the project.
+> This project is part of the Microverse Rails curriculum.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+This project was made for learning proposes, to practice the way of creating forms with Rails. It was for practice and understand the way data is structured and sent to the controller.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**Keep in mind that it is preferable to run this program with the most up-to-date version of Ruby.**
 
-
-To get a local copy up and running follow these simple example steps.
+Even though this is just for practice, feel free to clone this repo and play around with it. You can practice with this too.
 
 ### Prerequisites
 
-### Setup
+- Basic knowledge of the terminal of your computer
+- Basic knowledge of git
+- Ruby 2.6.0 or later version
+- Github account
+- Rails pre-installed
+- Basic knowledge of active record
 
-### Install
+**If you don't have plenty of knowledge of one of these, here are some helpful links that can explain to you how to get and/or use them.**
 
-### Usage
+**Terminal**
+[- Basic guide](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/)
+<br>
 
-### Run tests
+**Git**
+[- Basic guide](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+<br>
 
-### Deployment
+**Ruby**
+[- Installation](https://www.ruby-lang.org/en/documentation/installation)
+[- Quickstart](https://www.ruby-lang.org/en/documentation/quickstart/)
+<br>
 
+**Github**
+[- Basic guide](https://guides.github.com/activities/hello-world/)
+<br>
 
+**Rails**
+[- A playlist of videos that shows you how to install and use it](https://www.youtube.com/watch?v=iF8caVyDi5g&list=PLCC34OHNcOtrk3BDsfZwf4GattdLoKCOF)
+<br>
 
-## Authors
+**Active Record**
+[- Basic guide](https://guides.rubyonrails.org/active_record_basics.html)
+<br>
+<br>
 
-👤 **Author1**
+### Setup and usage
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+<br/>
 
-👤 **Author2**
+> 1. Clone this repo into your computer
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Click on "Code" and copy the HTTPS url
+- Go to your terminal, and type: 
+
+      $ git clone (paste the url direction)
+<br/>
+<p align="center">
+<img src="./readme-img/cloning.png" width="600"/>
+</p>
+<br/>
+
+- Now, change the folder direction, type: 
+
+      $ cd re-former
+
+> 2. Add a user from the browser
+
+- In the terminal, type: 
+
+      $ rails server
+
+- Open the browser and go to the url http://localhost:3000/users/new
+- Now you should be able to see the users creator form.
+<br/>
+<p align="center">
+<img src="./readme-img/browser-new.png" width="400"/>
+</p>
+<br/>
+
+- Create a new user and submit.
+
+> 3. Edit a user
+
+- On the browser, open the url http://localhost:3000/users/1/edit (The number "1" could be any existing user id)
+- Now you can edit that user's data
+- Try to leave blank any of the fields to test the errors
+<br/>
+<p align="center">
+<img src="./readme-img/browser-edit.png" width="400"/>
+</p>
+<br/>
+
+> 4. Try adding more users and play around with them.
+
+<br/>
+<br/>
+
+## Built With
+
+- Ruby 3.0.0
+- Rails 6.1.3
+- VsCode
+- Github
+- Git
+  <br>
+
+## Author
+
+👤 **Alejandro Guadalupe Contreras Rodriguez**
+
+- GitHub: [@AlejandroNo4](https://github.com/AlejandroNo4)
+- Twitter: [@Alejand80002666](https://twitter.com/alejand80002666)
+- LinkedIn: [Alejandro Contreras Rodriguez](https://www.linkedin.com/in/alejandro-contreras-rodriguez-b524821b5/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/AlejandroNo4/re-former/issues).
 
 ## Show your support
 
@@ -67,10 +130,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Information based on:
 
-## 📝 License
+[- The Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/)
 
-This project is [MIT](lic.url) licensed.
+For a better understanding, I followed this tutorial from GoRails.
+
+[- Rails for Beginners | GoRails](https://www.youtube.com/watch?v=wkNR1hG4yOk)
