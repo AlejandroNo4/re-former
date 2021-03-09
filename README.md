@@ -51,11 +51,55 @@ Even though this is just for practice, feel free to clone this repo and play aro
 
 ### Setup and usage
 
-It is very straight forward
+<br/>
 
-- Clone this repo into your computer
-- Take a look and familiarize yourself with the main folders
-- Follow the instructions of the assignment on this [page](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
+> 1. Clone this repo into your computer
+
+- Click on "Code" and copy the HTTPS url
+- Go to your terminal, and type: 
+
+      $ git clone (paste the url direction)
+<br/>
+<p align="center">
+<img src="./readme-img/cloning.png" width="600"/>
+</p>
+<br/>
+
+- Now, change the folder direction, type: 
+
+      $ cd re-former
+
+> 2. Add a user from the browser
+
+- In the terminal, type: 
+
+      $ rails server
+
+- Open the browser and go to the url http://localhost:3000/users/new
+- Now you should be able to see the users creator form.
+<br/>
+<p align="center">
+<img src="./readme-img/browser-new.png" width="400"/>
+</p>
+<br/>
+
+- Create a new user and submit.
+
+> 3. Edit a user
+
+- On the browser, open the url http://localhost:3000/users/1/edit (The number "1" could be any existing user id)
+- Now you can edit that user's data
+- Try to leave blank any of the fields to test the errors
+<br/>
+<p align="center">
+<img src="./readme-img/browser-edit.png" width="400"/>
+</p>
+<br/>
+
+> 4. Try adding more users and play around with them.
+
+<br/>
+<br/>
 
 ## Built With
 
